@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}/*RESET*/
+
+body>header{
+    background-color: bisque;
+    padding: 16px 0;
+    color: black;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+    }
+
+header li a{
+    color: black;
+    text-decoration: none;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+        width: 1366px;
+        margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+   /* height: 180px;**/
+   width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article h3{
+    margin: 16px;
+    margin-bottom: 8px;
+}
+
+.articles article a {  /*LNK DOS ARTIGOS*/
+    background-color: rgb(234, 167, 66);
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    margin-top: 8px;
+}
+
+.articles article A:hover{
+    text-decoration: underline;
+}
+
+.articles article p, 
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+
+
+section h2{
+    font-size: 32px;
+}
+
+#entretimento {
+    background-color: beige;
+}
+
+#tecnologia{
+    background-color: blanchedalmond;
+}
+
+#sports {
+    background-color: beige;
+}
+
+#economy {
+    background-color: blanchedalmond;
+}
+
+#economy .articles article a{
+    background-color: antiquewhite;
+}
+
+#entretimento .articles article a{
+    background-color: antiquewhite;
+}
+
+#tecnologia .articles article a{
+    background-color:bisque 
+}
+
+#sports .articles article a{
+    background-color:bisque 
+}
